@@ -1,0 +1,413 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: "Master Of Break";
+  src: url('master_of_break.ttf') format('truetype')
+}
+@font-face {
+  font-family: "Nanami-Book";
+  src: url('Nanami-Book.otf') format('opentype')
+}
+
+body{
+    font-family: "Nanami-Book";
+    width: 100%;
+	margin: 0;
+}
+
+.logo{
+    margin-left: 12em;
+	margin-top: 0.3em;
+}
+
+.navbar{
+    width: 100%;
+    height: 5em;
+    display:flex;
+}
+
+li{
+    display: inline;
+    color: black;
+    font-size: 0.8em;
+    list-style-type: none;
+    margin-left: 5em;
+    text-align: center;
+	margin-bottom: 0,5em;
+	
+}
+.link {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+.link:hover {
+	border-bottom: 1em #fff581 solid;
+	
+}
+
+
+.home_page{
+	display:block;
+    background-image: url("img/1cover.png");
+	width: 100%;
+	height: 46em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slogan{
+
+}
+.welcome{
+	color: white;
+}
+
+
+.headning{
+    color: red;
+    font-size: 2em;
+    text-align: center;
+}
+
+.text{
+    color: gray;
+    text-align: center;
+}
+
+.btn{
+    background-color: #ff7e66;
+    width: 12em;
+    height: 4em;
+    color: white;
+    border: none;
+	cursor: pointer;
+}
+
+.contener{
+    display: flex;
+}
+
+.col1{
+	width: 50%;
+	background-color: #fff2ed;
+}
+
+.col2{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff2ed;
+}
+
+.title{
+    color: #ff7e66;
+    font-size: 3em;
+    text-align: center;
+}
+
+.content{
+    color: #9f9a97;
+    text-align: center;
+	padding-right: 3em;
+}
+
+.textmasetr{
+	font-family: "Master Of Break";
+}
+.textmasetrtop{
+	font-family: "Master Of Break";
+	font-size: 2em;
+	
+}
+.cakepage{
+	display:block;
+    background-image: url("img/cake.png");
+	width: 100%;
+	height: 46em;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+
+}
+.font{
+	display: block;
+	margin-right: 15em;
+	margin-top: 8em;
+	color: white;
+
+}
+
+.price{
+	font-family: "Master Of Break";
+	color: white;
+	font-size: 4em;
+	display: block;
+	margin-right: 7.6em;
+/*	margin-top: 2em;*/
+	margin-bottom: 6em;
+
+}
+.contenttext{
+	display: block;
+	margin-right: 24em;
+	margin-top:  4em;
+	color: white;
+
+}
+
+.btntrans{
+	background-color: transparent;
+	border: 0.3em solid white;
+	width: 8em;
+	height: 5em;
+	font-size: 1.4em;
+	color: white;
+	margin-right: 22em;
+	margin-top: 1em;
+	cursor: pointer;
+}
+.btnprop{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2em;
+	cursor: pointer;
+}
+.info{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+.gallery{
+	width: 410px;
+	height: 402px;
+	background-color: #fff2ed;
+	font-size: 4em;
+	color: #ff7e66;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;	
+}
+
+.galery{
+	display: flex;
+	flex-wrap: nowrap;
+	
+}
+
+.stylfont{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-size: 3em;
+	color: #f01b16;
+	align-items: center;
+}
+
+.blog{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2em;
+	margin-bottom: 3em;
+}
+.img2{
+	margin-bottom: -2em;
+}
+.btnview{
+	background-color: black;
+    width: 6em;
+    height: 2em;
+    color: black;
+    border: none;
+	display: block;
+	margin-top: -22em;
+	margin-left: 8.5em;
+	cursor: pointer;
+}
+.form{
+	display: flex;
+	align-items: center;
+	background-image: url("img/f1dc5733120423.56a073732cdd5.png");
+	width: 100%;
+	flex-direction: column;
+	
+}
+.formm{
+	display: flex;
+	align-items: center;
+	background: transparent;
+	color: white;
+	padding: 2em;
+	margin: 20em;
+	
+}
+.sumit{
+	width: 78em;
+	align-items: center;
+	background: #ff7d66;
+	color: white;
+	border: 0em;
+	margin-top: -32em;
+	padding: 1em;
+	margin-bottom: 10em;
+	margin-right: 2.5em;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.input{
+	width: 20em;
+	height: 0.8em;
+	background: transparent;
+	color: white;
+	padding: 2em;
+	border: 0.1em solid;
+/*	margin-right: 4em;*/
+	margin-top: -45em;
+	margin-right: 2.9em;
+	
+
+
+}
+input::placeholder{
+	color: white;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.textid{
+	width: 78em;
+	height: 10em;
+	margin-top: -45em;
+	background: transparent;
+/*	padding: 2em;*/
+	border: 0.1em solid white;
+	display: flex;
+	align-items: center;
+	margin-right: 2.5em;
+	color: white;
+	font-family: "Nanami-Book";
+
+	
+}
+
+.stylfontwhite{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	font-size: 3em;
+	color: white;
+	align-items: center;
+	margin-top: 1em;
+}
+
+.contact{
+	background-color: #fff2ed;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 4em;
+}
+
+.contact1{
+	background-color: white;
+	display: flex;
+	justify-content: space-evenly;
+	color: #81868e;
+
+}
+.contenttext{
+	display: block;
+	
+	width: 287px;
+	height: 128px;
+
+}
+.tn{
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 1.5em;
+	color: black;
+	padding: 0.5em;
+	margin-top: 1em;
+}
+.ts{
+	color: #81868e;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.textarea{
+	display: flex;
+	justify-content: center;
+
+}
+
+.maps{
+	margin-top: 2em;
+	
+}
+.top{
+	font-family: "Master Of Break";
+	font-size: 2em;
+	color: red;
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+.copy{
+	color: #81868e;
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+.social{
+	text-align: center;
+	margin-top: 2em;
+	color: white;
+}
